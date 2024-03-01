@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">26sp</dimen>
+    <dimen name="size_sakura3">450dp</dimen>
+    <dimen name="size_sakura2">500dp</dimen>
+    <dimen name="size_sakura1">700dp</dimen>
+</resources>

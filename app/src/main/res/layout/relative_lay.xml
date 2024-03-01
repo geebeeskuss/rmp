@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sakura">
+    <TextView
+        android:id="@+id/text3"
+        android:layout_above="@id/sakura3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="@dimen/text_size" />
+    <ImageView
+        android:id="@+id/sakura3"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_sakura3"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"/>
+    <EditText
+        android:layout_below="@id/sakura3"
+        android:id="@+id/edit3"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="@string/edit_rel"
+        android:textSize="@dimen/text_size" />
+    <Button
+        android:layout_below="@id/edit3"
+        android:id="@+id/button3"
+        android:layout_alignRight="@id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/cherry"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size"/>
+
+</RelativeLayout>
